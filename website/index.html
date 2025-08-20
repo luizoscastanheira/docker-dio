@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Fatos Históricos</title>
+</head>
+<body>
+    <header>
+        <hr>
+        <h1>Bem-vindo à página de Fatos Históricos</h1>
+        <hr>
+    </header>
+    <main>
+        <section>
+
+            <form id="formBusca" action="https://apifatoshistoricos.onrender.com/" method="get">
+                <fieldset>
+                    <h2>Digite abaixo o ano que deseja pesquisar algum fato histórico.</h2>
+                    <p>Fato entre os anos de 1920 a 2022 (por enquanto).</p>
+                    <label>Ano:</label>
+                    <input type="text" name="ano"/>
+                    <input type="submit" value="Buscar">
+                    
+                </fieldset>
+
+                <div id="quadroResultado">
+                    
+                </div>
+                
+            </form>
+        </section>
+
+
+    </main>
+
+    <script src="scripts.js" defer></script>
+</body>
+</html>
