@@ -1,3 +1,4 @@
+# Não foi setado versão pois há aviso de configuração obsoleta
 services:
   apache:
     image: httpd:latest
@@ -6,3 +7,4 @@ services:
     - '80:80'
     volumes:
     - ./website:/usr/local/apache2/htdocs
+# Não foi setado rede pois em teste em outra máquina poderia haver diferença
